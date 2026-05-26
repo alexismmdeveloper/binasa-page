@@ -451,9 +451,10 @@ p { margin: 0; }
 }
 
 .about-media img {
+  display: block;
   width: 100%;
-  height: clamp(240px, 40vw, 400px);
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-lg);
 }
